@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/RemoveDupFromSortedArray/bin/Debug/net7.0/RemoveDupFromSortedArray.dll",
+            "program": "${workspaceFolder}/MajorityElement/bin/Debug/net7.0/MajorityElement.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/RemoveDupFromSortedArray",
+            "cwd": "${workspaceFolder}/MajorityElement",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

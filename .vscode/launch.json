@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/BestTimeBuySellStock1/bin/Debug/net7.0/BestTimeBuySellStock1.dll",
+            "program": "${workspaceFolder}/JumpGame/bin/Debug/net7.0/JumpGame.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/BestTimeBuySellStock1",
+            "cwd": "${workspaceFolder}/JumpGame",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

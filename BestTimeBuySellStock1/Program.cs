@@ -31,7 +31,7 @@
                 {
                     int currentMax = prices[prices.Length - k] - price;
                     k--;
-                    if(currentMax < max) continue;
+                    if (currentMax < max) continue;
                     else max = currentMax;
                 }
 

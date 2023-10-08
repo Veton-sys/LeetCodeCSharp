@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/RandomizedSet/bin/Debug/net7.0/RandomizedSet.dll",
+            "program": "${workspaceFolder}/ProductExceptSelf/bin/Debug/net7.0/ProductExceptSelf.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/RandomizedSet",
+            "cwd": "${workspaceFolder}/ProductExceptSelf",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

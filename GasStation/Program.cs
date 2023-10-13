@@ -24,41 +24,26 @@ namespace GasStation
 
         public static int CanCompleteCircuit(int[] gas, int[] cost)
         {
-            int startIndex = -1;
+            int startIndex = 0;
             int tank = 0;
-            int n = gas.Length;
-            int trigger = 0;
+
+            var totalGas = gas.Sum();
+            var totalCost = cost.Sum();
+
+            if (totalGas < totalCost) return -1;
+
             for (int i = 0; i < gas.Length; i++)
             {
+                tank += gas[i] - cost[i];
 
-                startIndex = i;
-                for (int j = i; j <= n; j++)
+                if (tank < 0)
                 {
-                    trigger++;
-                    if(trigger == n+1) break;
-                    if (j == n)
-                    {
-                        j = 0;
-                    }
-
-                    tank += gas[j];
-                    if (tank < cost[j])
-                    {
-                        startIndex = -1;
-                        tank = 0;
-                        trigger = 0;
-                        break;
-                    }
-                    else
-                    {
-                        tank -= cost[j];
-                    }
+                    tank = 0;
+                    startIndex = i + 1;
                 }
-                if(startIndex != -1) break;
-
             }
 
-            return startIndex;
+            return tank > 0 ? startIndex : -1;
         }
     }
 }

@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/ProductExceptSelf/bin/Debug/net7.0/ProductExceptSelf.dll",
+            "program": "${workspaceFolder}/GasStation/bin/Debug/net7.0/GasStation.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ProductExceptSelf",
+            "cwd": "${workspaceFolder}/GasStation",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

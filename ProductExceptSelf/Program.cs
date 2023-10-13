@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-namespace ProductExceptSelf
+﻿namespace ProductExceptSelf
 {
     public class Program
     {

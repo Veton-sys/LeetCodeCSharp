@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/LengthOfLastWord/bin/Debug/net7.0/LengthOfLastWord.dll",
+            "program": "${workspaceFolder}/RomanInteger/bin/Debug/net7.0/RomanInteger.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/LengthOfLastWord",
+            "cwd": "${workspaceFolder}/RomanInteger",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
